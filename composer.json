@@ -1,0 +1,30 @@
+{
+    "name": "zenithcoder/contact",
+    "description": "This will send email to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Awonusi",
+            "email": "awonusiolajide@yahoo.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+
+    "require": {},
+
+     "autoload": {
+        "psr-4": {
+            "Zenithcoder\\Contact\\":"src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zenithcoder\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
